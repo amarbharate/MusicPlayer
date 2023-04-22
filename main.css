@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(45deg, black, #282C35);
     height: 100%;
+    text-shadow: 2px 2px 5px red;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,12 +11,13 @@ body{
 
 h1{
     color: whitesmoke;
+    text-shadow: 2px 2px 5px red;
     position: absolute;
     top: 500px;
     left: 300px;
 }
 p{
-    color: whitesmoke;
+    color: rgb(220, 158, 158);
 }
 
 img{
@@ -27,38 +29,27 @@ img{
 }
 p{
     color: whitesmoke;
-    position: absolute;
+    position:absolute;
     top: 550px;
-    left: 360px;
+    left: 340px;
 }
 #prev{
-    background-color: black;
-    border: none;
+    background-color: rgb(64, 161, 82);
     position: absolute;
     top: 600px;
-    left: 280px;
+    left: 340px;
 }
 #play{
-    background-color: black;
-    border: none;
+    background-color: rgb(164, 67, 67);
     position: absolute;
     top: 600px;
-    left: 370px;
-}
-#pause{
-    background-color: black;
-    border: none;
-    z-index: -3;
-    position: absolute;
-    top: 600px;
-    left: 370px;
+    left: 410px;
 }
 #next{
-    background-color: black;
-    border: none;
+    background-color: rgb(44, 163, 62);
     position: absolute;
     top: 600px;
-    left: 440px;
+    left: 470px;
 }
 .prev{
     color: whitesmoke;
